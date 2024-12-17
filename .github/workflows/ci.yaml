@@ -10,9 +10,9 @@ on:
 
 jobs:
   build:
-      name: 'Build and Push 1'
+      name: 'Build and Push'
       runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout source code
-        uses: actions/checkout@v4
+      steps:
+        - name: Checkout source code
+          uses: actions/checkout@v4
